@@ -1,0 +1,48 @@
+a=10
+b=43
+print(a+b)
+print('a+b')
+a="sarita gomi"
+print(a)
+print(type(a))
+a=40
+b=5
+c=a**b
+print(c)
+d=a/b
+e=a//b
+print(d)
+print(e)
+# TAKING INPUT VALUES
+#a = int(input( ))
+print(a)
+List=[]
+print(List)
+List=[1,2,3,4]
+print(List)
+List=[2,3,45,"SARITA","PODD"]
+List[-1]
+print(List[-1])
+print(List)
+List=[[1,"HEY"],["GOOD MORNING"]]
+print(List)
+print(len(List))
+
+tuple=(1,2,3,4,5)
+print(tuple)
+print(type(tuple))
+
+dict ={}
+print(dict)
+dict ={1:"sarita",2:"sdd",3:"sdsd"}
+print(dict)
+
+# is palindrome or not
+def ispalindrome()->bool:
+    s =input()
+    n=len(s)
+    for i in range(n//2):
+        if(s[i] != s[n-1-i]):
+            break
+        return (i ==n//2 -1)
+

@@ -1,0 +1,10 @@
+def query_search(cards, query):
+    print(cards)
+    print(query)
+    i = 0
+    while True:
+        if cards[i] == query:
+            return i
+        i += 1
+        if i == len(cards):
+            return -1
