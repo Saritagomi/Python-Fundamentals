@@ -1,0 +1,24 @@
+# This is a sample Python script.
+
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def numberReverse(n):
+    rev=0
+    while n!=0:
+        r=n%10
+        rev=rev*10+rev
+        n=n//10
+    return rev
+rev= numberReverse(123456)
+print("Reverse is;",rev)
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/

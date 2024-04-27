@@ -1,0 +1,1 @@
+Grades=Repot_card.loc[(Report_card["Name"]=="summestion"),["lecture","grades","credits","retake"]]

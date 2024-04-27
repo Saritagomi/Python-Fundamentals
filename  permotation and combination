@@ -1,0 +1,33 @@
+class myclass: #myclass is the class
+    x=5
+p1=myclass()
+print(p1.x)
+class sarita:# sarita is the class
+    x=24
+b1=sarita()
+print(b1.x)
+
+class student: # student is the class
+    def __init__ (self,rollno,name): # rollno and name is the object
+     self.rollno = rollno
+     self.name = name
+s1=student(1,"sarita")
+s2=student(2,"sid")
+s3=student(3,"monika")
+s4=student(4,"myank")
+print(s1.rollno)
+print(s2.name)
+70
+
+from itertools import permutations
+a = "sarita"
+p = permutations(a)
+for j in list(p):
+    print(j)
+
+from itertools import combinations # firstly import the
+same = combinations([1,2,3], 2)
+for i in list(same):
+    print(i)
+
+
